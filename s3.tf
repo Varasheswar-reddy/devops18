@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "varshuu.devops.project"
+  bucket = "varshuu.monolithic.project"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
